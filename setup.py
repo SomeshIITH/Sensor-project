@@ -10,8 +10,8 @@ def get_requirements(file_path:str)->List[str]:
         requirements = file_obj.readlines()
         requirements = [req.replace("\n", "") for req in requirements]
 
-        if '-e.' in requirements:
-            requirements.remove('-e.')
+        if '-e .' in requirements:
+            requirements.remove('-e .')
     return requirements
 
 

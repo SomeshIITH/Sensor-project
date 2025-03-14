@@ -1,4 +1,6 @@
 pandas
 numpy
+pymongo
 
--e.
+
+-e .

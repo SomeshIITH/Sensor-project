@@ -69,8 +69,8 @@ class ModelTrainer:
                 test_model_score = accuracy_score(y_test, y_test_pred)
 
 
-                # report[list(models.keys())[i]] = test_model_score
-                report[list(models.keys())[i]] = {"train_model_score": train_model_score, " test_model_score": test_model_score}
+                report[list(models.keys())[i]] = test_model_score
+                # report[list(models.keys())[i]] = {"train_model_score": train_model_score, " test_model_score": test_model_score}
 
             return report
 

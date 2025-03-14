@@ -12,6 +12,4 @@ PASSWORD = "pwskills"
 MODEL_FILE_NAME = "model"
 MODEL_FILE_EXTENSION = ".pkl"
 
-"hyphen e . (-e .)" = "used to tell -e stands for editable mode and . (dot) refers to the current directory (which should contain a setup.py)"
-
 artifact_folder = "artifacts"
